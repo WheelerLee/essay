@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[使用U盘安装MacOS]]></title>
+    <url>%2Fessay%2F2018%2F08%2F08%2F%E4%BD%BF%E7%94%A8U%E7%9B%98%E9%87%8D%E8%A3%85MacOS%2F</url>
+    <content type="text"><![CDATA[下载系统镜像打开mac的App Store，搜索mac，找到macOS High Sierra. 如果显示打开则不需要下载，显示下载点击下载，然后等待下载完成。 格式化U盘将U盘插入电脑，在【磁盘工具】的外置一栏中选择你需要制作系统的U盘，点击上方【抹掉】，命名为MacOS，格式选择Mac OS 扩展（日志式），点击【抹掉】格式化U盘。注意不要抹掉电脑的硬盘 制作系统U盘在终端输入以下命令 sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia –volume /Volumes/MacOS –applicationpath /Applications/Install\ macOS\ High\ Sierra.app –nointeraction注：sudo /系统镜像路径/Contents/Resources/createinstallmedia –volume /U盘路径 –applicationpath /系统镜像路径 –nointeraction 等待制作完成，大致需要20分钟，我的U盘比较慢，大概1个小时才完成 安装系统将U盘插入需要安装的电脑。开机，按住option键，在弹出的界面选择Install macOS High Sierra。后面的操作都是傻瓜式的了，就不多说了。]]></content>
+      <categories>
+        <category>MacOS</category>
+      </categories>
+      <tags>
+        <tag>MacOS</tag>
+      </tags>
+  </entry>
+</search>
